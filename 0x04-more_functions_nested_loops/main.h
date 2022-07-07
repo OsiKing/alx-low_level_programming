@@ -1,5 +1,6 @@
 #ifndef MAIL_H
 #define MAIL_H
+#include <stdio.h>
 
 /*
  *  * File: mail.h
