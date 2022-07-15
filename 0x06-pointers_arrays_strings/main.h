@@ -1,6 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
-
 /**
  *main.h
  *Desc: Header file containing prototypes for all functions
