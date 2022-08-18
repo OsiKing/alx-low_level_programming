@@ -2,7 +2,7 @@
  * File: 100-get_endianness.c
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * get_endianness - Checks the endianness.
