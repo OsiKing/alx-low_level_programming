@@ -13,6 +13,5 @@ printf("Sum = %d\n", add);
 printf("Difference = %d\n", subtract);
 printf("Multiplication = %d\n", multiply);
 printf("Division = %.2f\n", divide);
- 
-return 0;
+return (0);
 }
