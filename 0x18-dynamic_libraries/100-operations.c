@@ -1,4 +1,7 @@
 #include <stdio.h>
+/**
+* main function
+**/
 int main(void)
 {
 int first, second, add, subtract, multiply;
