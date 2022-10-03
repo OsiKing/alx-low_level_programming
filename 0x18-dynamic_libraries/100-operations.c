@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
-* main function
-**/
+ * main - Create a dynamic library that contains
+ *        C functions that can be called from Python.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 int first, second, add, subtract, multiply;
