@@ -1,16 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 int main()
 {
-    int num1, num2, res;
-    printf("Enter any two number: ");
-    scanf("%d%d", &num1, &num2);
-    res = num1+num2;
-    printf("\nAddition = %d", res);
-    res = num1-num2;
-    printf("\nSubtraction = %d", res);
-    res = num1*num2;
-    printf("\nMultiplication = %d", res);
-    res = num1/num2;
-    printf("\nDivision = %d", res);
-    return 0;
+    int num1,num2;
+printf("Enter the first number: ");
+scanf("%d",&num1);
+printf("Enter the second number: ");
+scanf("%d",&num2);
+
+printf("\nAddition of %d + %d",num1,num2);
+printf(" = %d",(num1+num2 ));
+printf("\nSubstraction of %d - %d",num1,num2);
+printf(" = %d",(num1-num2));
+printf("\nMultiplication of %d X %d",num1,num2);
+printf(" = %d",(num1*num2 ));
+printf("\nDivision of  %d / %d",num1,num2);
+printf(" = %d",(num1/num2 ));
+
+getch();
+return 0;
 }
